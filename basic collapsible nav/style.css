@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 25%;
+    height: 968px;
+    background-color: #272829;
+    color: #D8D9DA;
+    overflow: hidden;
+}
+.head-con{
+    text-decoration: none;
+    color: wheat;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 18px;
+    text-align: center;
+    font-size: 40px;
+    justify-content: space-between;
+}
+.open-icon{
+    position: absolute;
+    display: none;
+    z-index: -1;
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.lu-item{
+    align-items: center;
+    height: 100%;
+    margin-top: 70px;
+    position: relative;
+}
+.lu-item li {
+    margin-bottom: 30px;
+
+}
+.lu-item li a{
+    gap: 20px;
+    margin-left: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: #D8D9DA;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    display: flex;
+    transition: 0.4s;
+    width: 80%;
+}
+
+.lu-item li a:hover{
+    background-color: #9E9FA5;
+}
+
+@media screen and (max-width: 768px) {
+   nav{
+    width: auto;
+    height: auto;
+   }
+   .lu-item{
+    text-align: start;
+   }
+}
+
+
+
